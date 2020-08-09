@@ -28,3 +28,11 @@ $ yarn add @material-ui/core
 $ yarn add othello-game-logic
 
 $ yarn upgrade --latest
+
+## 3.オセロゲームの基本画面を実装してみる
+
+othello-game-logicを用いたオセロゲームの基本部分の実装を試みます
+
+残念ながらothello-game-logicにはtypeの宣言がないので、型宣言のエラーが出ないような形でライブラリを読み込みます
+
+Boardのデータ型など、部分的な部分は自前で型宣言を行っていきます
