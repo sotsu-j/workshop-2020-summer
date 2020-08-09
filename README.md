@@ -18,9 +18,13 @@ $ npx create-react-app workshop-2020-summer --typescript
 ## 2.チュートリアルの環境を整える
 
 チュートリアルとしてオセロゲームを作ります
+
 @material-ui/core, othello-game-logicを追加します
+
 また、ライブラリを最新バージョンにアップグレードします
 
 $ yarn add @material-ui/core
+
 $ yarn add othello-game-logic
+
 $ yarn upgrade --latest
